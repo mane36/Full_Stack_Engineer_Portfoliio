@@ -15,6 +15,8 @@ arrayExample = [1,2,3,4,5,6,7,8,9,0]
 Iterators and Array Methods
 */
 
+console.log('terators and Array Methods\n')
+
 //Do something customized for each element in an Array - forEach()
 console.log("forEach()")
 arrayExample.forEach((elm) => {
@@ -34,7 +36,7 @@ console.log('\n')
 /*
 Loops
 */
-
+console.log('Loops\n')
 
 
 //for statement
@@ -42,9 +44,9 @@ console.log('Regular for statement:')
 for (let i = 0; i<arrayExample.length; i++){
   console.log(arrayExample[i])
 }
-
-
 console.log('\n')
+
+
 //for...in
 //The for...in statement iterates a specified variable (i) over all the enumerable properties of an object (obj).
 //For each distinct property, JavaScript executes the specified statements.
